@@ -9,6 +9,11 @@ const apis = [
         url: 'https://travel.schoolcode.dk/',
         image: '/journeyhub.png'
     },
+    {
+        name: 'SpiceApi',
+        url: 'https://spices.jeppesapps.dk/',
+        image: 'https://culinarylabschool.com/wp-content/uploads/2018/03/spices.jpg'
+    }
 
 ]
 
