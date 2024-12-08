@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 667.67 667.67">
+  <defs>
+    <style>
+      .cls-1 {
+      fill: #fff;
+      stroke: #212121;
+      }
+
+      .cls-1, .cls-2 {
+      stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+      fill: #212121;
+      stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-1" cx="328.83" cy="329.83" r="288.33" />
+      <g id="_-Product-Icons" data-name="🔍-Product-Icons">
+        <g id="ic_fluent_dark_theme_24_regular" data-name="ic fluent dark theme 24 regular">
+          <path id="_-Color" data-name="🎨-Color" class="cls-2"
+            d="m333.83,667.17c184.09,0,333.33-149.24,333.33-333.33S517.93.5,333.83.5.5,149.74.5,333.83s149.24,333.33,333.33,333.33Zm0-50V50.5c156.48,0,283.33,126.85,283.33,283.33s-126.85,283.33-283.33,283.33Z" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
