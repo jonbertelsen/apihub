@@ -46,7 +46,7 @@ p {
     padding: 2rem 1rem;
     width: 100%;
     max-width: 968px;
-    height: 70svh
+    min-height: 70svh
     
   }
 

@@ -12,7 +12,7 @@ const StyledCard = styled.div`
   border-radius: 5px;
   background-color: ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
-  width: 200px;
+  width: 300px;
 `
 
 const StyledName = styled.h2`
@@ -31,8 +31,8 @@ const StyledLink = styled(Link)`
 `
 
 const StyledImage = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
 `
 
 function ApiCard({ name, url, image }) {
