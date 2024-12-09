@@ -142,8 +142,6 @@ const apis = [
         image: 'https://frontendvetlocator.studiofavrholdt.dk/assets/dog1-V3kS-Vcb.png',
         team: 2
     }
-
-
 ]
 
 export default apis
