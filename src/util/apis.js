@@ -1,13 +1,17 @@
 const apis = [
     {
-        name: 'bookfinder',
+        name: 'Book Finder',
         url: 'https://todo.clausjoergensen.dk/',
-        image: 'https://todo.clausjoergensen.dk/assets/logo-DZ9FEnQ8.png'
+        image: 'https://todo.clausjoergensen.dk/assets/logo-DZ9FEnQ8.png',
+        team_id: 1,
+
+
     },
     {
         name: 'JourneyHub',
         url: 'https://travel.schoolcode.dk/',
-        image: '/journeyhub.png'
+        image: '/journeyhub.png',
+        team_id: 2
     },
     {
         name: 'SpiceApi',
@@ -16,7 +20,7 @@ const apis = [
     },
     {
         name: 'Discound Finder',
-        url: 'https://discountfinder.doc.albertevallentin.dk/assets/logo-D93tqHq6.svg',
+        url: 'https://discountfinder.doc.albertevallentin.dk/',
         image: 'https://discountfinder.doc.albertevallentin.dk/assets/logo-D93tqHq6.svg'
     },
     {
@@ -36,7 +40,7 @@ const apis = [
     },
     {
         name: 'Pizza API',
-        url: 'https://github.com/m4cfly/api-hub',
+        url: 'https://pizza.bytecode.dk/',
         image: '/pizzaria.png'
     },
     {
@@ -87,7 +91,7 @@ const apis = [
     }
     , {
         name: 'Garden API',
-        url: 'https://github.com/rebeccaburon/Garden_front',
+        url: 'https://gardenapp.codebyburon.dk/',
         image: '/garden.png'
     }
     , {
@@ -104,9 +108,17 @@ const apis = [
         image: '/eventrec.png'
     },
     , {
-        name: '',
-        url: '',
-        image: ''
+        name: 'Waste Not API',
+        url: 'https://wastenot-doc.hunkstaban.dk/',
+        image: 'https://wastenot-doc.hunkstaban.dk/assets/logo-DDB1DZxQ.png'
+    }, {
+        name: 'Atlas API',
+        url: 'https://atlas-api.ut-cphb.dk/',
+        image: 'https://atlas-api.ut-cphb.dk/image.png'
+    }, {
+        name: 'Vet Locator API',
+        url: 'https://frontendvetlocator.studiofavrholdt.dk/',
+        image: 'https://frontendvetlocator.studiofavrholdt.dk/assets/dog1-V3kS-Vcb.png'
     }
 
 
