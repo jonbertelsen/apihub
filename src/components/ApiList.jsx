@@ -1,5 +1,4 @@
 import apis from '../util/apis'
-import { Link } from 'react-router'
 import StyledCard from './ApiCard'
 import styled from 'styled-components'
 
@@ -16,12 +15,21 @@ const StyledHeading = styled.h1`
 `
 
 function ApiList() {
+  const sortedApis = apis.sort((a, b) => a.team - b.team)
   return (
     <>
       <StyledHeading>API List</StyledHeading>
       <StyledCards>
-        {apis.map((api, index) => {
-          return <StyledCard key={index} name={api.name} url={api.url} image={api.image} />
+        {sortedApis.map((api, index) => {
+          return (
+            <StyledCard
+              key={index}
+              name={api.name}
+              team={api.team}
+              url={api.url}
+              image={api.image}
+            />
+          )
         })}
       </StyledCards>
     </>

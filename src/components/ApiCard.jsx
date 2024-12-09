@@ -30,16 +30,21 @@ const StyledLink = styled(Link)`
   }
 `
 
+const StyledTeam = styled.p`
+  font-size: 0.8rem;
+`
+
 const StyledImage = styled.img`
   width: 100px;
   height: 100px;
 `
 
-function ApiCard({ name, url, image }) {
+function ApiCard({ name, team, url, image }) {
   return (
     <StyledCard>
       <StyledImage src={image} alt={name} />
       <StyledName>{name}</StyledName>
+      <StyledTeam>Team: {team}</StyledTeam>
       <StyledLink to={url}>{name}</StyledLink>
     </StyledCard>
   )
