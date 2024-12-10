@@ -64,7 +64,7 @@ const apis = [
         team: 20
     }, {
         name: 'Event Swiper',
-        url: 'https://event.lukasronberg.dk/',
+        url: 'https://eventdoc.lukasronberg.dk/',
         image: '/event_swiper.png',
         team: 19
     }, {
@@ -141,6 +141,12 @@ const apis = [
         url: 'https://frontendvetlocator.studiofavrholdt.dk/',
         image: 'https://frontendvetlocator.studiofavrholdt.dk/assets/dog1-V3kS-Vcb.png',
         team: 2
+    },
+    {
+        name: 'Fitness Tracker API',
+        url: 'https://rouvii.dk/api/routes',
+        image: 'https://www.awi.gg/wp-content/uploads/2020/01/fitnessicon-605x605.png',
+        team: 40
     }
 ]
 
