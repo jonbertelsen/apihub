@@ -2,7 +2,7 @@ const apis = [
     {
         name: 'Book Finder',
         url: 'https://todo.clausjoergensen.dk/',
-        image: 'https://todo.clausjoergensen.dk/assets/logo-DZ9FEnQ8.png',
+        image: 'https://sp3.clausjoergensen.dk/assets/logo-DZ9FEnQ8.png',
         team: 1
     },
     {
@@ -146,8 +146,14 @@ const apis = [
         name: 'Fitness Tracker API',
         url: 'https://rouvii.dk/api/routes',
         image: 'https://www.awi.gg/wp-content/uploads/2020/01/fitnessicon-605x605.png',
-        team: 40
-    }
+        team: 40,
+    },
+    {
+        name: 'myzzPlayer API',
+        url: 'https://muzzplayer.showcodefatima.dk/',
+        image: '/muzzplayer.png',
+        team: 39,
+    },
 ]
 
 export default apis
