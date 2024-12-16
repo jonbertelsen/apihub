@@ -7,7 +7,7 @@ const apis = [
     },
     {
         name: 'JourneyHub',
-        url: 'https://travel.schoolcode.dk/',
+        url: 'https://frontend.schoolcode.dk/',
         image: '/journeyhub.png',
         team: 3
     },
